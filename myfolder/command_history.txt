@@ -1,0 +1,77 @@
+    1  file.1
+    2  touch file.1
+    3  ls
+    4  cal > file.1
+    5  date > file.1
+    6  ls
+    7  cat > file.1
+    8  touch file.1
+    9  ls
+   10  date > file.1
+   11  ls
+   12  cat file.1
+   13  cal > file.1
+   14  ls
+   15  cal 2026 > file.1
+   16  sudo apt update
+   17  sudo apt install ncal
+   18  cal > file.1
+   19  ls
+   20  ls file.1
+   21  cat > file.1
+   22  touch > file.1
+   23  touch file.1
+   24  ls
+   25  date > file.1
+   26  cat file.1
+   27  cal > file.1
+   28  cat file.1
+   29  date > file.1
+   30  cal >> file.1
+   31  cat file.1
+   32  rm cal > file.1
+   33  cal 2026 >> file.1
+   34  cat file.1
+   35  mv file.1 Dans.file
+   36  ls
+   37  cat Dans.file
+   38  head -n 12 Dans.file
+   39  tail -n 22 Dans.file
+   40  grep 'Su' log.Dans.file
+   41  grep 'Su' Dans.file
+   42  cat Dans.file
+   43  date > Dans.file
+   44  cat Dans.file
+   45  cal 2026 >> Dans.file
+   46  cat Dans.file
+   47  date > Dans.file
+   48  cal 2026 >> Dans.file
+   49  cat Dans.file
+   50  touch dir
+   51  ls
+   52  PWD
+   53  rm dir
+   54  ls
+   55  mkdir Directory
+   56  ls
+   57  mv Dans.file Directory/
+   58  ls
+   59  ls Directory
+   60  mv Directory myfolder
+   61  ls
+   62  ls myfolder
+   63  ls Dans.file
+   64  "Hello World" >> myfolder/Dans.file
+   65  echo "Hello World" >> myfolder/Dans.file
+   66  ls Dans.file
+   67  ls myfolder/Dans.file
+   68* cat Dans.fil
+   69  cat myfolder/Dans.file
+   70  sed -i '/Hello World/d' myfolder/Dans.file
+   71  ls myfolder/Dans.file
+   72* 
+   73  ls myfolder/Dans.file
+   74  cat myfolder/Dans.file
+   75  nano myfolder/Dans.file
+   76  history 100
+   77  history > myfolder/command_history.txt
